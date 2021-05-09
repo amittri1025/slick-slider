@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap');
+body{
+    height: 100vh;
+    background-color: rgb(11, 17, 24);
+    background-image: radial-gradient(rgb(30, 8, 65), rgb(11, 17, 24));
+
+}
+
+h2{
+    font-family: "Roboto Mono";
+    font-size: 60px;
+    color: white;
+}
+
+h2>div{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+.my-slider{
+    display: flex;
+}
+
+.my-slider  .items{
+    width: 350px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+.my-slider .items img{
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    transition: .5s ease;
+    box-shadow: 0px 0px 10px  rgb(75, 214, 224);
+ }
+
+ .my-slider .slick-center img {
+    transform: scale(1.7);
+ }
+
+ .my-slider .slick-track{
+     padding: 60px;
+ }
